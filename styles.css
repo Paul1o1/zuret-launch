@@ -136,3 +136,13 @@
     
 }
 }
+@media (max-width:376px){
+    .content{
+        top:40%;
+    }
+    .bus{
+        bottom:-5%;
+    }
+
+
+}
