@@ -8,7 +8,9 @@
 .container{
     width:100vw;
     height:100vh;
-    background-color: #0e4929;
+    background-image: url(Untitled-1-01.jpg);
+    background-position: center;
+    background-size: cover;
     padding: 0 8%;
     position: relative;
     overflow: hidden;
@@ -16,11 +18,11 @@
 .logo-container{
     margin-top: 1%;
     width:100%;
-    text-align: center;
+    text-align: left;
 }
 .logo{
 
-    width:48%;
+    width:20%;
     padding:20px 0;
     cursor: pointer;
 }
@@ -61,10 +63,16 @@
 }
 
 #notify-form{
-  margin-left:-60px;
+  margin-left:-140px;
 }
+.content a{
+    color:#f9daa2;
+    text-decoration: none;
 
-
+}
+.content a:hover{
+    color:white;
+}
 
 
 @keyframes bus{
@@ -88,6 +96,9 @@
         font-size: 58px;
        
     }
+    #notify-form{
+        margin-left:-110px;
+      }
 }
 @media (max-width:870px) {
     .content h1{
@@ -97,9 +108,16 @@
         font-size: 50px;
        
     }
+    #notify-form{
+        margin-left:-100px;
+      }
     
 }
 @media (max-width:769px) {
+    .logo{
+
+        width:40%;
+    }
     .content{
         width:80%;
     }
@@ -113,6 +131,9 @@
         font-size: 40px;
        
     }
+    #notify-form{
+        margin-left:-80px;
+      }
 }
 @media (max-width:490px) {
     .content{
@@ -141,7 +162,7 @@
         top:40%;
     }
     .bus{
-        bottom:-5%;
+        bottom:-4%;
     }
     .launch-time div p {
         font-size: 35px;
@@ -150,4 +171,8 @@
     .launch-time{
         width:95%;
     }
+    #notify-form{
+        margin-left:-30px;
+        width:100%;
+      }
 }
