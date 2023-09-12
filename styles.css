@@ -143,6 +143,11 @@
     .bus{
         bottom:-5%;
     }
-
-
+    .launch-time div p {
+        font-size: 35px;
+       
+    }
+    .launch-time{
+        width:95%;
+    }
 }
