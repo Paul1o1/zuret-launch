@@ -27,7 +27,7 @@
     cursor: pointer;
 }
 .content{
-    top:40%;
+    top:42%;
     position:absolute;
     transform: translatey(-50%);
     color:white;
@@ -35,7 +35,7 @@
 
 }
 .content h1{
-    font-size:400%;
+    font-size:380%;
     font-weight:600;
 }
 
@@ -51,7 +51,7 @@
    
 }
 .launch-time div p{
-    font-size: 60px;
+    font-size: 58px;
     margin-top:5px;
 }
 .bus{
@@ -66,6 +66,8 @@
   margin-left:-140px;
 }
 .content a{
+    display:block;
+    margin:14px 0;
     color:#f9daa2;
     text-decoration: none;
 
@@ -85,7 +87,12 @@
         opacity: 1;
     }
 }
-@media (max-width:1350px) {
+
+
+@media (min-width:1550px) {
+    .bus{
+        width:20vw;
+    }
 
 }
 @media (max-width:1125px) {
@@ -109,7 +116,7 @@
        
     }
     #notify-form{
-        margin-left:-100px;
+        margin-left:-26px;
       }
     
 }
@@ -132,7 +139,7 @@
        
     }
     #notify-form{
-        margin-left:-80px;
+        margin-left:-100px;
       }
 }
 @media (max-width:490px) {
